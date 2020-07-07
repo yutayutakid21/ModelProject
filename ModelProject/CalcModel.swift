@@ -14,6 +14,27 @@ class CalcModel{
     var number2 = Int()
     
     
+    func plus(){
+        
+        number1 + number2
+    }
+    
+    func mius(){
+          
+          number1 - number2
+      }
+    
+    func kakeru(){
+        
+        number1 * number2
+    }
+    
+    func waru(){
+           
+           number1 / number2
+       }
+       
+    
     
 }
 

@@ -24,6 +24,10 @@ class ViewController: UIViewController {
      その後私のリモートリポジトリへPull Requestを送ってください。
      */
     
+    var calcModel = CalcModel()
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
