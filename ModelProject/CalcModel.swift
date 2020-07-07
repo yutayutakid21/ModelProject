@@ -14,35 +14,35 @@ class CalcModel{
     var number2 = Int()
     
     
-    func plus(number1:Int,number2:Int)->Int{
+   func plus(number1:Int,number2:Int)->Int{
+          
+          return number1 + number2
         
-        return number1 + number2
       
-    
-    }
-    
-    
-    func mius(number1:Int,number2:Int)->Int{
+      }
+      
+      
+      func mius(number1:Int,number2:Int)->Int{
+          
+          return number1 - number2
         
-        return number1 - number2
       
-    
-    }
-    
-    
-    func kakeru(number1:Int,number2:Int)->Int{
+      }
+      
+      
+      func kakeru(number1:Int,number2:Int)->Int{
+          
+          return number1 * number2
         
-        return number1 * number2
       
-    
-    }
-    
-    func waku(number1:Int,number2:Int)->Int{
+      }
+      
+      func waku(number1:Int,number2:Int)->Int{
+          
+          return number1 / number2
         
-        return number1 / number2
       
-    
-    }
+      }
        
     
     
